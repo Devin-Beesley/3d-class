@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Devin_Beesley_F-14_Tomcat.ma
-//Last modified: Sun, Sep 18, 2016 12:17:21 AM
+//Last modified: Sun, Sep 18, 2016 02:10:57 AM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "00D32390-46E9-9689-AB28-71B32A8D6A93";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 33.597334468255539 27.50914341424706 68.557127275925097 ;
-	setAttr ".r" -type "double3" 339.86164730314186 -1775.0000000026955 8.7733845137565919e-016 ;
+	setAttr ".t" -type "double3" 2.1765543703381862 -7.8768621381833057 80.078341954630773 ;
+	setAttr ".r" -type "double3" 365.6616473030777 -1799.8000000016375 -5.4355513696927513e-017 ;
 	setAttr ".rp" -type "double3" -4.4408920985006262e-015 1.7763568394002505e-015 0 ;
 	setAttr ".rpt" -type "double3" 7.1220979124770434e-016 -2.0703046637257858e-016 
 		2.5516875274821736e-015 ;
