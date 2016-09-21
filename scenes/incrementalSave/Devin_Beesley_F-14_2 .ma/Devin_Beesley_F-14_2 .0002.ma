@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Devin_Beesley_F-14_2 .ma
-//Last modified: Wed, Sep 21, 2016 01:32:21 PM
+//Last modified: Wed, Sep 21, 2016 01:32:12 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
