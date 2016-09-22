@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Devin_Beesley_F-14_2 .ma
-//Last modified: Wed, Sep 21, 2016 06:10:05 PM
+//Last modified: Wed, Sep 21, 2016 06:13:36 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "AED0B0C8-3848-4200-9C40-C2A45FB5C135";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -31.815897267386227 18.52696174182897 1.2270575758269251 ;
-	setAttr ".r" -type "double3" 1412.0616472628292 -798.59999999998979 0 ;
+	setAttr ".t" -type "double3" -27.918978648710119 -9.3338846720981863 -26.390404129945153 ;
+	setAttr ".r" -type "double3" 1457.0616472629333 -847.39999999990164 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1431CE8C-734B-E129-081C-DF80EB541CCF";
 	setAttr -k off ".v" no;
