@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Devin_Beesley_F-14_2 .ma
-//Last modified: Fri, Sep 23, 2016 02:59:24 PM
+//Last modified: Fri, Sep 23, 2016 02:51:45 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -14,15 +14,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "AED0B0C8-3848-4200-9C40-C2A45FB5C135";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -6.2051304637797067 43.461339632832164 -31.029949149426194 ;
-	setAttr ".r" -type "double3" 305.66164730249818 -2690.1999999992659 0 ;
+	setAttr ".t" -type "double3" -41.50929773152766 30.39369318482505 10.808972879400553 ;
+	setAttr ".r" -type "double3" 325.46164730712536 -3313.3999999990315 -2.2265902599909589e-14 ;
 	setAttr ".rp" -type "double3" 0 4.4408920985006262e-16 0 ;
 	setAttr ".rpt" -type "double3" 1.0464307034194774e-14 -1.4746678039279676e-15 7.1497812105331956e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1431CE8C-734B-E129-081C-DF80EB541CCF";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 51.838625612304462;
+	setAttr ".coi" 51.23818496371468;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -3535,9 +3535,9 @@ createNode mesh -n "polySurfaceShape2" -p "pCube22";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCube23";
 	rename -uid "5A1C20E7-E64B-D6CF-D728-01A9CBB3BD07";
-	setAttr ".t" -type "double3" -7.6188230705297775 2.3186785826065002 -2.6573351437307675 ;
+	setAttr ".t" -type "double3" -7.4446468067561797 2.3186785826065002 -2.4276612411676304 ;
 	setAttr ".r" -type "double3" 0 33.868338086968173 0 ;
-	setAttr ".s" -type "double3" 5.3201964052147135 0.27989761863810486 5.7410921422103547 ;
+	setAttr ".s" -type "double3" 5.3201964052147135 0.27989761863810486 5.4025138427373358 ;
 createNode mesh -n "pCubeShape23" -p "pCube23";
 	rename -uid "3C7E73F8-F346-14EE-39D4-858445DAFF80";
 	setAttr -k off ".v";
@@ -3627,7 +3627,7 @@ createNode mesh -n "pCubeShape10" -p "|pCube23|pCube10";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCube24" -p "pCube23";
 	rename -uid "0A2D2808-D74D-28F9-57AE-498897B57462";
-	setAttr ".t" -type "double3" 2.3070685090292824 0 1.4705661237373941 ;
+	setAttr ".t" -type "double3" 2.2869456036665952 0 1.4983498899614149 ;
 	setAttr ".r" -type "double3" 0 115.9184942063832 0 ;
 	setAttr ".s" -type "double3" 0.98762031436923547 1 -1.0125348632978162 ;
 	setAttr ".sh" -type "double3" 0 -0.011957904020822922 0 ;
